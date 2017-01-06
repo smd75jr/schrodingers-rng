@@ -85,7 +85,7 @@ running it on a simulated processor that you understand, then you can pipe the
 output into `filter.py`. The following command will create a random 256-bit 
 hexadecimal string:
 
-    ./capture > ./filter.py --column=2 --length=32
+    ./capture | ./filter.py --column=2 --length=32
 
 Even the most cynical layman can audit every step to confirm that the random 
 bits are indeed coming from the universe and nobody else has seen them:
